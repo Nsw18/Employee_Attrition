@@ -100,12 +100,6 @@ Empolyee_Attrition_Project_FDA/
 - **Python 3.9 or higher** — [Download here](https://www.python.org/downloads/)
 - **Git** — [Download here](https://git-scm.com/)
 
-### 1. Clone the Repository
-
-```bash
-https://github.com/Divyansh-Parihar/Employee-Attrition-Analysis.git
-cd Employee-Attrition-Analysis
-```
 
 ### 2. Create a Virtual Environment
 
