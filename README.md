@@ -101,13 +101,13 @@ Empolyee_Attrition_Project_FDA/
 - **Git** — [Download here](https://git-scm.com/)
 
 
-### 2. Create a Virtual Environment
+### 1. Create a Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### 3. Activate the Virtual Environment
+### 2. Activate the Virtual Environment
 
 **Windows (Command Prompt / PowerShell):**
 ```bash
@@ -119,13 +119,13 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-### 4. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Add the Dataset
+### 4. Add the Dataset
 
 Download the IBM HR Attrition dataset from [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) and place the CSV file inside the `data/` folder:
 
@@ -135,7 +135,7 @@ data/WA_Fn-UseC_-HR-Employee-Attrition.csv
 
 > **Tip:** You can also skip this step and upload your own CSV directly through the dashboard's sidebar.
 
-### 6. Run the Dashboard
+### 5. Run the Dashboard
 
 ```bash
 streamlit run app.py
